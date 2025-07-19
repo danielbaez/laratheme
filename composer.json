@@ -1,0 +1,40 @@
+{
+    "name": "danielbaez/laratheme",
+    "description": "A package for managing themes in a Laravel application.",
+    "type": "laravel-package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Baez",
+            "email": "daniel_bg19@hotmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=8.2",
+        "illuminate/support": "^11.0|^12.0",
+        "illuminate/view": "^11.0|^12.0",
+        "illuminate/filesystem": "^11.0|^12.0",
+        "illuminate/console": "^11.0|^12.0",
+        "illuminate/contracts": "^11.0|^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DanielBaez\\LaraTheme\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DanielBaez\\LaraTheme\\LaraThemeServiceProvider"
+            ],
+            "aliases": {
+                "Theme": "DanielBaez\\LaraTheme\\Facades\\Theme"
+            }
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
