@@ -130,5 +130,5 @@ Este proyecto está bajo la licencia MIT. Consulta el archivo [LICENSE](LICENSE)
 
 ## ❤️ Autor
 
-Desarrollado por [DanielBaez](https://danielbaez.com)
+Desarrollado por Daniel Baez
 Contacto: [daniel_bg19@hotmail.com](mailto:daniel_bg19@hotmail.com)
